@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#imgLogo {
+	width: 350px;
+	height: 200px;
+	border-radius: 10px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+body {
+	background: rgb(0, 0, 0);
+}
+main {
+	height: 700px;
+}
+a {
+	text-decoration: none;
+	color: LightSteelBlue;
+}
+a:hover {
+	font-size: 25px;
+	transition: all 0.3s;
+}
+
+#search {
+	text-align: center;
+	margin-left: 105px;
+	margin-bottom: 10px;
+}
+#inputGears {
+	width: 500px;
+	height: 30px;
+	font-size: 20px;
+	font-style: italic;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+.searchBtn {
+	height: 30px;
+	width: 100px;
+	margin-left: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	background: rgb(238, 239, 240);
+}
+/* .searchBtn :hover {
+	opacity: 0.5;
+} */
+.inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	margin-right: 5px;
+}
+.listGear {
+	font-style: italic;
+	font-size: 25px;
+	color: rgb(0, 0, 0);
+	text-align: start;
+
+	margin-bottom: 10px;
+
+	border: 2px solid white;
+	width: 500px;
+	border-radius: 10px;
+	background-color: white;
+
+	padding-left: 5px;
+}
+.nameGear {
+	margin-bottom: 5px;
+}
+.descriptionGear {
+	font: 20px courier;
+}
+@media (max-width: 845px) {
+	main {
+		height: 500px;
+	}
+	#imgLogo {
+		margin-left: 40px;
+		margin-bottom: 50px;
+	}
+	h1 {
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	#search {
+		margin: 0;
+	}
+	#inputGears {
+		width: 230px;
+		margin-bottom: 15px;
+	}
+	.searchBtn {
+		width: 50px;
+	}
+	.inner {
+		margin: 0;
+	}
+
+	.listGear {
+		width: 290px;
+		font-size: 20px;
+	}
+	.descriptionGear {
+		font-size: 15px;
+	}
+	footer {
+		font-size: 50px;
+	}
+}
