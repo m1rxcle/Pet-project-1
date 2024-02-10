@@ -27,7 +27,7 @@ function createList(usersData) {
 				
 		
 		<div class="listGear">
-			<div class="nameGear">${usersData.gearsname}</div>
+			<div class="nameGear">${usersData.gearsName}</div>
 			<div class="descriptionGear">${usersData.description}</div>
 		</div>
 	
