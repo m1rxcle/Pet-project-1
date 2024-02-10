@@ -2,7 +2,7 @@ const inputGears = document.getElementById("inputGears")
 const innerContainer = document.querySelector(".inner")
 const button = document.querySelector(".searchBtn")
 const listGear = document.querySelector(".listGear")
-const api = "https://jsonplaceholder.typicode.com/users"
+/* const api = "https://jsonplaceholder.typicode.com/users" */
 const gearsJson = "http://localhost:3000/gears"
 
 async function showUsers() {
