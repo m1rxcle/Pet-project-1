@@ -7,7 +7,7 @@ const gearsJson = "http://localhost:3000/gears"
 
 async function showUsers() {
 	try {
-		const response = await fetch(api)
+		const response = await fetch(gearsJson)
 
 		if (response.ok) {
 			const data = await response.json()
